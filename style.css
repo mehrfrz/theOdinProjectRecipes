@@ -1,0 +1,195 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #F8F3EA;
+  color: #2F2925;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+
+
+
+.recipe-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+
+
+
+h1 {
+  color: #8E2635;
+  text-align: center;
+  font-size: 3rem;
+  margin: 0 0 10px;
+}
+
+.recipe-container > h2 {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+
+
+
+.recipe-container img {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 16px;
+}
+
+
+
+
+.recipe-container > div:not(.recipe-content) {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 25px 0 45px;
+  text-align: center;
+}
+
+.recipe-container > div:not(.recipe-content) span {
+  font-size: 0.9rem;
+}
+
+
+
+
+.recipe-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+}
+
+
+
+
+.ingredients,
+.directions {
+  background-color: #FFFDF9;
+  border: 1px solid #E2D8CB;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+
+
+
+.ingredients h2,
+.directions h2 {
+  color: #8E2635;
+  text-align: left;
+  font-size: 1.6rem;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+
+
+
+.ingredients ul {
+  padding-left: 20px;
+}
+
+.ingredients li {
+  margin-bottom: 10px;
+}
+
+
+
+
+.note {
+  background-color: #F3EBDD;
+  border-left: 4px solid #8E2635;
+  padding: 15px;
+  margin-top: 25px;
+  font-size: 0.9rem;
+}
+
+
+
+
+.directions h3 {
+  color: #8E2635;
+  font-size: 1rem;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.directions h4 {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.directions p {
+  margin-top: 0;
+}
+
+
+
+
+a {
+  color: #8E2635;
+}
+
+a:hover {
+  color: #C69A3A;
+}
+
+a:visited {
+  color: #69745A;
+}
+
+
+
+
+.recipe-container > span {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid #D8CCBE;
+  font-size: 0.9rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .recipe-container {
+    padding: 25px 15px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .recipe-content {
+    grid-template-columns: 1fr;
+  }
+
+  .ingredients,
+  .directions {
+    padding: 20px;
+  }
+
+  .recipe-container > div:not(.recipe-content) {
+    gap: 15px;
+  }
+}
