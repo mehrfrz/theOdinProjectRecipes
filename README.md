@@ -6,7 +6,7 @@ This project was built as part of [The Odin Project](https://www.theodinproject.
 
 ## 🌐 Live Preview
 
-[View the live website](YOUR_GITHUB_PAGES_LINK_HERE)
+[View the live website](https://mehrfrz.github.io/theOdinProjectRecipes/)
 
 ## 🛠️ Built With
 
